@@ -54,7 +54,6 @@ try:
 except Exception as e:
     # delusions of good form
     # TODO do this properlybig_buffer = 300000
-small_buffer = 1084
     print('error encountered in the serial calls')
     print(e)
 finally:
